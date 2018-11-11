@@ -12,8 +12,5 @@ $(document).ready(function () {
 
             $("#message").html(table);
         },
-        error: function (xhr, status, error) {
-            alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
-        }
     });
 });

@@ -1,0 +1,11 @@
+html{
+  background-color: white;
+  opacity: 0.3;
+  background-image: url("map.jpg");
+  background-size: cover;
+}
+.container{
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}

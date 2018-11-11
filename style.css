@@ -3,33 +3,11 @@ html{
   background-size: cover;
   color: black;
 }
-
-#viewContent {
-  padding-left: 20px;
-}
-
-#viewContent select, #viewContent button {
-  font-size: 25px;
-}
-
-#viewContent h4 {
-  margin: 10px 0;
-}
-
-#viewContent .textAlignCenter {
-  text-align: center;
-}
-
-#viewContent .textAlignCenter img {
-  display: none;
-  width: 100px;
-}
-
-#viewContent #message table {
-  width: 100%;
-}
-
-#viewContent #message table th {
-    text-align: left;
-    text-decoration: underline;
+.container{
+  color: black;
+  text-align: left;
+  background-color: #e6e6e6;
+  border: 3px solid black;
+  margin: 20%;
+  padding: 20px;
 }

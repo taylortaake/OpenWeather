@@ -4,3 +4,7 @@ loadJSON('https://api.openweathermap.org/data/2.5/weather?q=Chicago&APPID=0c3738
 function gotData(data) {
     weather = data;
 }
+
+function fillData() {
+    document.getElementById('temp').innerHTML = weather.main.temp;
+}
